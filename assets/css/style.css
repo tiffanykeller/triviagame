@@ -1,0 +1,40 @@
+body { 
+	background: url(../images/potato.jpg) no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Acme', sans-serif;
+}
+
+html {
+	
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Acme', sans-serif;
+	color: white;
+	padding: 25px;
+	text-shadow: 2px 2px green;
+}
+
+.answer,
+#timer {
+	font-weight: 900;
+}
+
+#start {
+	color: black;
+}
+
+.choices {
+	text-align: center;
+	border: groove 2px black;
+	border-radius: 5%;
+	margin: 0 35%;
+}
+
+.choices:hover {
+	background-color:blue;
+	color: white;
+}
+
